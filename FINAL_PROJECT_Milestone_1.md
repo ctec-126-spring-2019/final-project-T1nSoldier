@@ -1,0 +1,5 @@
+For my final, I plan to make a dice game and a "Buzzfeed" type quiz where the user enters some information and it auto generates a string based on the letters in their name or their birthdate.
+
+The dice game will roll 4 dice, add up the total, then ask the player to bet higher or lower. It will roll again and determine if the player won. It is a set of loops wired to a button, but I plan on having a couple different dice styles that will be chosen by the player. It will use the code from the picture swapping lab to swap in the correct die image. 
+
+The quiz will have a form where the user will enter their first and last names, their birth date, the color of an item of clothing, the last thing they ate, and it will have buttons to direct the user to the next page that will make a string based on characteristics of the data entered. For example, your superhero name is based on your birth month and the first letter of your first name. It will operate on strings, splitting them and finding the index of certain characters.
