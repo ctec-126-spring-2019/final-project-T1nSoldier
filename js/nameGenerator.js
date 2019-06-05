@@ -13,7 +13,7 @@ var day = '';
 var month = '';
 var animal = '';
 
-
+// Tear the data into the chunks I will be using.
 function processing() {
     output = '';
     $('#output').html(output);
@@ -279,7 +279,7 @@ switch(fnli){
         break;
 
     case 'e':
-        output += "Bruce";
+        output += "Rat";
         break;
 
     case 'f':
@@ -374,7 +374,7 @@ switch(fnfi){
         break;
 
     case 'b':
-        output += " Wayne";
+        output += "man";
         break;
 
     case 'c':
@@ -386,7 +386,7 @@ switch(fnfi){
         break;
 
     case 'e':
-        output += " man";
+        output += "man";
         break;
 
     case 'f':
@@ -1243,4 +1243,409 @@ function redneck() {
 output += ", toss me another beer!";
 $('.button').css('display','none');
 $('#output').html(output);  
+}
+
+function bandit() {
+    output += "You are ";
+switch (fnfi) {
+    case 'a':
+        output += 'General';
+        break;
+
+        
+    case 'b':
+        output += 'Gut';
+        break;
+
+    case 'c':
+        output += 'Spine';
+        break;
+
+    case 'd':
+        output += 'Master';
+        break;
+
+    case 'e':
+        output += 'Skull';
+        break;
+
+    case 'f':
+        output += 'Lead';
+        break;
+
+    case 'g':
+        output += 'Gore';
+        break;
+
+    case 'h':
+        output += 'Petrol';
+        break;
+
+    case 'i':
+        output += 'Torque';
+        break;
+
+    case 'j':
+        output += 'Black';
+        break;
+
+    case 'k':
+        output += 'Fear';
+        break;
+
+    case 'l':
+        output += 'Monster';
+        break;
+
+    case 'm':
+        output += 'Chain';
+        break;
+
+    case 'n':
+        output += 'Gear';
+        break;
+
+    case 'o':
+        output += 'Oil';
+        break;
+
+    case 'p':
+        output += 'Tread';
+        break;
+
+    case 'q':
+        output += 'Flower';
+        break;
+
+    case 'r':
+        output += 'Gun';
+        break;
+
+    case 's':
+        output += 'Dust';
+        break;
+
+    case 't':
+        output += 'Exhaust';
+        break;
+
+    case 'u':
+        output += 'Wheel';
+        break;
+
+    case 'v':
+        output += 'Bone';
+        break;
+
+    case 'w':
+        output += 'Bullet';
+        break;
+
+    case 'x':
+        output += 'Leg';
+        break;
+
+    case 'y':
+        output += 'Dirt';
+        break;
+
+    case 'z':
+        output += 'Eye';
+        break;
+}
+    output += ' ';
+switch (lnli) {
+    case 'a':
+        output += 'Drinker';
+        break;
+
+        
+    case 'b':
+        output += 'Crusher';
+        break;
+
+    case 'c':
+        output += 'Watcher';
+        break;
+
+    case 'd':
+        output += 'Licker';
+        break;
+
+    case 'e':
+        output += 'King';
+        break;
+
+    case 'f':
+        output += 'Cruncher';
+        break;
+
+    case 'g':
+        output += 'Hunter';
+        break;
+
+    case 'h':
+        output += 'Bender';
+        break;
+
+    case 'i':
+        output += 'Breaker';
+        break;
+
+    case 'j':
+        output += 'Washer';
+        break;
+
+    case 'k':
+        output += 'Chewer';
+        break;
+
+    case 'l':
+        output += 'Biter';
+        break;
+
+    case 'm':
+        output += 'Ripper';
+        break;
+
+    case 'n':
+        output += 'Devourer';
+        break;
+
+    case 'o':
+        output += 'Eater';
+        break;
+
+    case 'p':
+        output += 'Puncher';
+        break;
+
+    case 'q':
+        output += 'Sniffer';
+        break;
+
+    case 'r':
+        output += 'Eater';
+        break;
+
+    case 's':
+        output += 'Drinker';
+        break;
+
+    case 't':
+        output += 'Burner';
+        break;
+
+    case 'u':
+        output += 'Starer';
+        break;
+
+    case 'v':
+        output += 'Drunk';
+        break;
+
+    case 'w':
+        output += 'Puncher';
+        break;
+
+    case 'x':
+        output += 'Sniffer';
+        break;
+
+    case 'y':
+        output += 'Hunter';
+        break;
+
+    case 'z':
+        output += 'Chaser';
+        break;
+
+
+}
+    output += ' ';
+switch (month){
+    case '01':
+        output += ' the Bold';
+        break;
+
+        
+    case '02':
+        output += ' the Bloody';
+        break;
+
+    case '03':
+        output += ' of Perth';
+        break;
+
+    case '04':
+        output += ' the Wild';
+        break;
+
+    case '05':
+        output += ' the Mad';
+        break;
+
+    case '06':
+        output += ', Eater of Bones';
+        break;
+
+    case '07':
+        output += '';
+        break;
+
+    case '08':
+        output += ' the Mighty';
+        break;
+
+    case '09':
+        output += ', Eater of the Weak';
+        break;
+
+    case '10':
+        output += ' the Vile';
+        break;
+
+    case '11':
+        output += ', Warmonger';
+        break;
+
+    case '12':
+        output += ' Gear Eater';
+        break;
+
+
+}
+    output += ', Scourge of ';
+switch (day) {
+    case '01':
+        output += 'All';
+        break;
+
+        
+    case '02':
+        output += 'Men';
+        break;
+
+    case '03':
+        output += 'Women';
+        break;
+
+    case '04':
+        output += 'Mutants';
+        break;
+
+    case '05':
+        output += 'the Wastes';
+        break;
+
+    case '06':
+        output += 'Heaven';
+        break;
+
+    case '07':
+        output += 'the Weak';
+        break;
+
+    case '08':
+        output += 'the Strong';
+        break;
+
+    case '09':
+        output += 'the Merciful';
+        break;
+
+    case '10':
+        output += 'the Desert';
+        break;
+
+    case '11':
+        output += 'the Sands';
+        break;
+
+    case '12':
+        output += 'God';
+        break;
+
+    case '13':
+        output += 'the Gods';
+        break;
+
+    case '14':
+        output += 'the Angels';
+        break;
+
+    case '15':
+        output += 'the Righteous';
+        break;
+
+    case '16':
+        output += 'the World';
+        break;
+
+    case '17':
+        output += 'the Stars';
+        break;
+
+    case '18':
+        output += 'Hell';
+        break;
+
+    case '19':
+        output += 'the Dunes';
+        break;
+
+    case '20':
+        output += 'All They See';
+        break;
+
+    case '21':
+        output += 'the Innocent';
+        break;
+
+    case '22':
+        output += 'Warlords';
+        break;
+
+    case '23':
+        output += 'the Rats';
+        break;
+
+    case '24':
+        output += 'Dreams';
+        break;
+
+    case '25':
+        output += 'the Bloodied';
+        break;
+
+    case '26':
+        output += 'the Broken Lands';
+        break;
+
+    case '27':
+        output += 'the Mind';
+        break;
+
+    case '28':
+        output += 'Your Mom';
+        break;
+
+    case '29':
+        output += 'the Cursed';
+        break;
+
+    case '30':
+        output += 'the Blessed';
+        break;
+
+    case '31':
+        output += 'the End';
+        break;
+}
+$('.button').css('display','none');
+$('#output').html(output);
+}
+
+function unicorn() {
+
 }
