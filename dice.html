@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>High or Low</title>
+    <link rel="stylesheet" href="css/dice.css">
+</head>
+
+
+<body>
+    <!-- Div to hide the entire table when the player runs out of money. -->
+    <div id='table'>
+      
+            <div id='rules'>
+                <h1>Welcome to Super Dice!</h1>
+                <h2>Rules</h2>
+                <p>Click Roll the Dice.</p>
+                <p>Each dice roll costs 5 coins. Each roll is 4 dice.</p>
+                <p>Your dice roll will be displayed. You will then wager whether the next dice roll will be higher or lower by pressing the corresponding button.</p>
+                <p>If you are correct, your earnings multiplier will double, and you will have to wager on the next dice roll being higher or lower. The multiplier caps at 32 coins.</p>
+                <p>The game continues until you guess incorrectly. Your multiplier will be reset when you lose.</p>
+                <button id='hideRules' onclick='hideRules()'>Hide rules</button>
+            </div>
+            <button id='showRules' onclick='showRules()'>Show rules</button>
+        <div>
+            <h3>Choose your dice pattern. This may be changed at any time.</h3>
+                <button id='basicDice' onclick='setClassic()'>Classic Pattern</button>
+                <button id='skullDice' onclick='setSkull()'>Skull Pattern</button>
+                <button id='dragonDice' onclick='setDragon()'>Dragon Pattern</button>
+        </div>
+            <div><h1>Your current coins:</h1><p id='wallet'></p> <h2 id='results'></h2></div> 
+            
+            <div id='diceContainer'>  
+                <div>
+                    <img id='die1' src='images/dieTemplate.jpg'> 
+                    <img id='die2' src='images/dieTemplate.jpg'>
+                    <img id='die3' src='images/dieTemplate.jpg'>
+                    <img id='die4' src='images/dieTemplate.jpg'>
+                </div>
+            </div>
+                
+            <div><p>Dice Roll:</p><p id='total'></p></div>
+            
+            <button id='higher' onclick='higher()'>Higher</button>
+            <button id='lower' onclick='lower()'>Lower</button>
+            <button id='roll' onclick='roll()'>Roll the dice!</button>
+        </div>
+    </div>
+    <button id='restart' onclick='restart()'>Restart</button>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src='js/dice.js'></script>
+</body>
+</html>

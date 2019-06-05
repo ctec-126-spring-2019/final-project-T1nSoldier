@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/nameGenerator.css">
+</head>
+<body>
+    <div id='input'>
+        <div id='welcome'><h1>Name Generator Central</h1></div>
+        <div id='directions'>
+            <p>Hello, and welcome to name generator central!</p>
+            <p>This is an automated sytem that will ask you a series of questions to gather information. You may then press one of the many buttons below to see what name your information generates.</p> 
+            <p>If you feel the information is too personal, don't worry! First, I have no way of seeing what you enter. Second, you are completely free to just enter fake information. No one has to know it isn't real!</p>
+        </div>
+        <div id='form'>
+            <label for="firstName">First Name:
+                <input type="text" name="firstName" id="firstName">
+            </label>
+            <br><br>
+           
+            <label for="middletName">Middle Name:
+                <input type="text" name="middleName" id="middleName">
+            </label>
+            <br><br>
+
+            <label for="lastName">Last Name:
+                <input type="text" name="lastName" id="lastName">
+            </label>
+            <br><br>
+            <fieldset id="selectgender">
+                    <legend>Gender</legend>
+                    <input type="radio" name="sex" value="male" id="male"><label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+                    <br>
+            </fieldset>
+            <br>
+            <label for='birthDate'>Birth Date:
+                <input type='date' name="birthDate" id='birthDate'>
+            </label>
+            <br><br>
+
+            <label for='animal'>Favorite Animal:
+                <input type='text' name='animal' id='animal'>
+            </label>
+            <br><br>
+
+            <button id='submit' onclick='processing()'>Done</button>
+
+        </div>
+    </div>
+    <div>
+        <p id='output'></p>
+    </div>
+    
+    <button id='bandName' class='button' onclick="band()">What's a good band name?</button>
+    <button id='batman' class='button' onclick='batman()'>What's my Batman name?</button>
+    <button id='redneck' class='button' onclick='redneck()'>What's my redneck name?</button>
+    <button id='bandit' class='button'>Make me a bandit!</button>
+    <button id='unicorn' class='button'>What's my unicorn name?</button>
+    <button id='blues' class='button'>What would my name be if I were a blues legend?</button>
+    <button id='costume' class='button'>What costume should I wear this Halloween?</button>
+    <button id='dragon' class='button'>What would my name be if I were a dragon?</button>
+    <button id='hero' class='button'>What would my super hero name be?</button>
+    <button id='villain' class='button'>What would my super villain name be?</button>
+    <button id='hippie' class='button'>Make me a hippie, man!</button>
+    <button id='pirate' class='button'>Arr, what ye be callin' me if'n I was a pirate?</button>
+    <button id='pokemon' class='button'>Sorry to do this to you, but what would I be if I were a pokemon?</button>
+
+    
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src='js/nameGenerator.js'></script>
+</body>
+</html>
+

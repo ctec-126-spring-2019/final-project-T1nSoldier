@@ -1,0 +1,28 @@
+body {
+    background-color: #006623;
+    max-width: 70%;
+}
+#roll {
+    display: none;
+}
+#higher {
+    display: none;
+}
+#lower {
+    display: none;
+}
+#wallet {
+    font-size: 3em;
+}
+
+#showRules {
+    display: none;
+}
+
+#total {
+    font-size: 2em;
+}
+
+#restart {
+    display: none;
+}
