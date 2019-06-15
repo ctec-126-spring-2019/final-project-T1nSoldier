@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/NYT.css">
 </head>
 <body>
     <!-- API Key = iVc2P4jInkaYOv1hARvAgzyWMoWsbAtv -->
+<div id='welcome'>
+    <h1>New York Times article search.</h1>
+</div>
+<div id='search control'>
+    <label for='article'>Enter your search term.</label>
+    <br>
+    <input type='text' id='article' name='article'>
+    <br>
+    <button id='submit' onclick='search()'>Search for articles</button>
+</div>
+<div id='output'>
+
+</div>
+
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script src='js/NYT.js'></script>
 </body>
 </html>

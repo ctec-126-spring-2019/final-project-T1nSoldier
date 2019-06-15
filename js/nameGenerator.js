@@ -39,11 +39,12 @@ function processing() {
     animal = $('#animal').val();
 $('.button').css('display','block');
 }
-
+// Initialize the output string
 var output = '';
-
+// And the functions that control everything. I will comment one or two.
 function band() {
     output = 'A good band name would be ';
+// Switch for selecting the first word based on your first name first initial.
 switch(fnfi) {
     case 'a':
         output += 'Alien';
@@ -150,6 +151,7 @@ switch(fnfi) {
         
 }
     output += ' ';
+// And switch for selecting second word using last name first initial.
 switch(lnfi) {
     case 'a':
         output += 'Angels.';
@@ -256,6 +258,7 @@ switch(lnfi) {
         break;
         
 }
+// Hide the buttons so that the done button needs to be pressed. Makes it less likely to glitch.   
     $('.button').css('display','none');
     $('#output').html(output);
 }
