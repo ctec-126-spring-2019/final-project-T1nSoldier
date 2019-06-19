@@ -2322,7 +2322,7 @@ var random = Math.floor(Math.random() * base.length/2);
 var name1 = base.slice(random , random + 1);
 name1 = name1.toUpperCase();
 var name2 = base.slice(random + 1, random + 4);
-var typerandom = Math.floor(Math.random() * 2);
+var typerandom = Math.floor(Math.random() * 3);
 var name3 = '';
 switch(type1) {
     case 'Ice':
